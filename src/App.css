@@ -1,0 +1,488 @@
+.homePAge {
+
+  margin: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.light {
+  background-color: rgb(255, 255, 255);
+  display: fixed;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+
+
+
+.dark {
+  color: white;
+  background: #050527;
+}
+
+
+.dark .cardContact {
+  text-align: center;
+  font-size: medium;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #69278a2d;
+  color: beige;
+
+
+}
+
+.light .cardContact {
+  text-align: center;
+  font-size: medium;
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+
+
+}
+
+#root {
+  background-color: #cccccc00;
+  z-index: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.dark nav {
+  background-color: #13104be4;
+}
+
+.light nav {
+  background-color: #00000070;
+}
+
+
+
+.new {
+  text-align: center;
+
+}
+
+li {
+  display: inline-block;
+}
+
+
+
+.no-bullets {
+  list-style-type: none;
+  background-color: rgba(47, 4, 43, 0);
+  padding: 20px;
+}
+
+.links {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+.links:hover {
+  background-color: rgba(7, 245, 165, 0.202);
+  border-radius: 10%;
+  padding: 10px;
+}
+
+
+
+.dark .thedreamtable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+
+}
+
+.light .thedreamtable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  max-width: 250px;
+
+}
+
+.dark a {
+  color: rgb(255, 208, 0);
+}
+
+.light a {
+  color: rgb(68, 7, 75);
+}
+
+:visited {
+  color: rgb(255, 67, 99)
+}
+
+.dark .thedreamtable td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.light .thedreamtable td,
+#customers th {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+.dark .thedreamtable tr:nth-child(even) {
+  background-color: #00000000;
+}
+
+.dark .thedreamtable tr:hover {
+  background-color: #000000b3;
+}
+
+.dark .thedreamtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0704aa;
+}
+
+.light .thedreamtable tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.light .thedreamtable tr:hover {
+  background-color: #ffffff;
+}
+
+.light .thedreamtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3d17179d;
+  margin: auto
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #555555;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #e4e1e4df;
+  color: rgb(28, 24, 24);
+}
+
+input[type=date],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid #555;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #555;
+  color: whitesmoke;
+
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+.thedreamtableSHOW {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.dark .thedreamtableSHOW td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: whitesmoke
+}
+
+.dark .thedreamtableSHOW tr:nth-child(even) {
+  background-color: #0814411b
+}
+
+.dark .thedreamtableSHOW tr th {
+  text-align: center;
+}
+
+.dark.thedreamtableSHOW tr:hover {
+  background-color: #7a0a7263;
+}
+
+.dark.thedreamtableSHOW th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #895bcf86;
+}
+
+
+.light .thedreamtableSHOW tr:nth-child(even) {
+  background-color: #ffffff
+}
+
+.light .thedreamtableSHOW tr th {
+  text-align: center;
+}
+
+.light.thedreamtableSHOW tr:hover {
+  background-color: #ffffff;
+}
+
+.light.thedreamtableSHOW th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #3e0e0eaf;
+}
+
+.dark .thedreamtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #895bcf;
+}
+
+.light .thedreamtable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #291212b0;
+}
+
+
+.thedreamtable tr {
+  text-align: center;
+}
+
+
+button {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.editbutton {
+  width: 30%;
+  background-color: #da5b16;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.delete {
+  width: 30%;
+  background-color: #af4c4c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+.dark legend {
+  color: hsl(0, 0%, 85%);
+}
+
+.light legend {
+  color: hsl(0, 0%, 0%);
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+
+
+  .homePAge {
+
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+  .cardContact {
+    text-align: center;
+    font-size: small;
+    border: solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 0;
+
+  }
+
+  .links {
+    font-size: small;
+  }
+
+
+  button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .editbutton {
+    width: 100%;
+    background-color: #da5b16;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .delete {
+    width: 100%;
+    background-color: #af4c4c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #dreamLogo {
+    max-width: 250px;
+    max-height: auto;
+  }
+
+}
+
+
+
+
+
+.edit {
+  background-color: #8104aa00;
+}
+
+
+
+
+.buttonPDF {
+  background-color: #ffffff00;
+}
+
+/* 
+.dreamLogo{width: 30px;
+max-height: auto;} */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+@media (min-width: 769px) {
+
+  #dreamLogo {
+    max-width: 370px;
+    max-height: auto;
+  }
+}
+
+.brain:hover {
+  background-color: rgba(255, 0, 0, 0.233);
+  border-radius: 50%;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  overflow: auto;
+}
+
+.backButton {
+  background-color: #45a049;
+}
+
+
+
+
+.addProductButton :hover {
+  background-color: darkred;
+}
+
+.tableReceipt {
+  margin: auto;
+  max-width: 280px;
+
+}
+
+.tableReceipt tr {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.tableReceipt tr:nth-child(even) {
+  background-color: #ffffff;
+  color: black;
+}
